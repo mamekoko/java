@@ -9,3 +9,13 @@ class main { //クラス部分
     System.out.println("Let's"+"Party");
   }
 }
+
+public class Main {
+    public static void main(String[] args) {
+        // forループを使って、iを10から2ずつ減少させながら繰り返す
+        for (int i = 10; i >= 2; i -= 2) {
+            // iの値を表示する
+            System.out.println(i);
+        }
+    }
+}
