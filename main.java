@@ -19,3 +19,28 @@ public class Main {
         }
     }
 }
+
+public class Main {
+    public static void main(String[] args) {
+        count = 0;
+        sum = 0;
+        for(int i = 2; i <= 10; i += 2){
+            count++;
+            sum = i;
+        }
+        System.out.println("偶数の個数：" + count);
+        System.out.println("偶数の合計値" + sum);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 10; i++) {
+            System.out.print(i);
+            if (i < 10) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+    }
+}
